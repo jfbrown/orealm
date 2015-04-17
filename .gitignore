@@ -12,3 +12,5 @@ vendor/bundle
 /log/*
 !/log/.keep
 /tmp
+
+*.sublime-workspace
