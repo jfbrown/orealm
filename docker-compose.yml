@@ -1,0 +1,11 @@
+neo:
+  image: frodenas/neo4j
+  ports:
+    - "7474:7474"
+  volumes:
+    - "tmp:/data"
+postgres:
+  image: postgres
+  ports:
+    - "5432:5432"
+
